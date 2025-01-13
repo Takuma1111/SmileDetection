@@ -36,7 +36,7 @@ def calculate_smile_ratio(landmarks, img_width, img_height):
 cap = cv2.VideoCapture(0)
 
 # 笑顔の閾値と連続撮影防止のタイマー
-SMILE_THRESHOLD = 0.3  # 笑顔度の閾値
+SMILE_THRESHOLD = 0.2  # 笑顔度の閾値
 last_captured_time = 0  # 最後に写真を撮影した時間
 CAPTURE_INTERVAL = 2  # 写真撮影間隔（秒）
 
